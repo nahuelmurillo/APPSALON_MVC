@@ -1,4 +1,2 @@
-src/
 vendor/
 node_modules/
-gulpfile.js
