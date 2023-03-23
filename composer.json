@@ -1,0 +1,20 @@
+{
+    "name": "nahuel/app-salon_php_mvc_js_sass",
+    "description": "PROYECTO PHP 8, MVC, JS, SASS, GULP, SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [{
+        "name": "NAHUEL MURILLO"
+    }],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
